@@ -21,7 +21,7 @@ body {
 
 /* area cabeçalho*/
 .hero {
-    background-image: linear-gradient(to bottom, rgba(240, 248, 255, 0.1), #f0f8ff), url(../assets/bg-home.jpg);
+    background-image: linear-gradient(to bottom, rgba(240, 248, 255, 0.1), #f0f8ff), url(assets/bg-home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
@@ -316,7 +316,7 @@ body {
 }
 
 .bg-footer {
-    background-image: url(../assets/footer.jpg);
+    background-image: url(assets/footer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
@@ -338,4 +338,3 @@ body {
     background-color: var(--secundary-color);
     background: rgba(240, 248, 255, 0.55);
     border-radius: 10px;
-}
