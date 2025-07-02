@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff;
+}
+
+:root {
+    --primary-font1: "Parisienne", cursive;
+    --primary-font2: "Pinyon Script", cursive;
+
+    --test-font: "Playfair Display", serif;
+    --test-font2: "Lora", serif;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-2ch);
+    }
+}
+
+.btn-default {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 30px;
+    gap: 5px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #FADADD;
+    border-radius: 5px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
+    font-family: var(--test-font2);
+}
+
+.btn-default:hover {
+    background-color: #F5EFE6;
+}

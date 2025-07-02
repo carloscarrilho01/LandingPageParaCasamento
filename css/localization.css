@@ -1,0 +1,54 @@
+#localization {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 80%;
+    flex-direction: column;
+    gap: 20px;
+    font-family: var(--test-font2);
+}
+
+#localization h2 {
+    font-size: 2rem;
+}
+
+.link-location a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #FADADD;
+    border-radius: 5px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
+    font-family: var(--test-font2);
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+} 
+
+.link-location a:hover{
+    background-color: #F5EFE6;
+    transform: translateY(-5px);
+}
+
+.link-location a i {
+    color: red;
+}
+
+.fa-brands.fa-waze {
+    color: #37474F;
+}
+
+.wedding-svg {
+    fill: black;
+    stroke: black;
+}
+
+.wedding-svg {
+    width: 50px;
+    height: 50px;
+}

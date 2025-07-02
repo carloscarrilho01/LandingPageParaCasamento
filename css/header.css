@@ -1,0 +1,109 @@
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg-home {
+    background-image: url('/images/pexels-ihsanaditya-1146345.jpg');
+    background-position: center;
+    mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.title-casal {
+    font-family: var(--test-font);
+}
+
+.title-casal h1 {
+    font-size: 6rem;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.2px);
+    -webkit-backdrop-filter: blur(5.2px);
+    border: 1px solid rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(5px);
+    z-index: 99;
+    font-family: var(--test-font2);
+
+}
+
+.navigation ol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10ch;
+}
+
+.navigation li {
+    list-style: none;
+    display: flex;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 1.7rem;
+}
+
+.navigation a:hover {
+    color: #FADADD;
+}
+
+.navigation img {
+    width: 20px;
+    height: 20px;
+}
+
+.title-casal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 60px);
+    width: 100%;
+    margin: auto;
+    color: white;
+    font-size: 2rem;
+}
+
+.arrow-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -1% auto;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 1px solid #fea779;
+    background: transparent;
+    font-size: 1.4rem;
+    color: #fea779;
+    cursor: pointer;
+    animation: pulse 2s infinite;
+    z-index: 99999;
+    text-decoration: none;
+}

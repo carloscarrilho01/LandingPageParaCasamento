@@ -1,0 +1,70 @@
+.gifts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+    gap: 20px;
+    background-color: #F5EFE6;
+    font-family: var(--test-font2);
+}
+
+.title-gifts {
+    padding: 1rem;
+    font-size: 2.2rem;
+}
+
+.content-giftcard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+    transition: transform 2s ease;
+    flex-wrap: wrap;
+    padding: 4rem;
+
+}
+
+.card-gifts:hover {
+    transform: translateY(-5px);
+}
+
+.card-gifts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.6rem;
+    border: 1px solid #FADADD;
+    border-radius: 8px;
+    width: 250px;
+    max-width: 300px;
+    height: 350px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.img-card {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-gifts img {
+    width: 150px;
+    object-fit: contain;
+}
+
+.btn-default {
+    gap: 10px;
+}
+
+.btn-default:hover {
+    background-color: #ffcaae;
+}
