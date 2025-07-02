@@ -1,3 +1,10 @@
+@import url("/css/header.css");
+@import url("/css/chronometer.css");
+@import url("/css/about.css");
+@import url("/css/gifts.css");
+@import url("/css/message.css");
+@import url("/css/localization.css");
+
 * {
     margin: 0;
     padding: 0;
@@ -48,5 +55,26 @@ body {
 }
 
 .btn-default:hover {
-    background-color: #F5EFE6;
+    background-color: #ffcaae;
+}
+
+.btn-default2 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+    gap: 5px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    background-color: #FADADD;
+    border-radius: 5px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
+    font-family: var(--test-font2);
+}
+
+.btn-default2:hover {
+    background-color: #ffcaae;
 }

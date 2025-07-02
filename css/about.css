@@ -1,4 +1,4 @@
-.about {
+.container-about {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,9 +13,9 @@
 }
 
 .content-about {
-    margin-top: -6%;
     margin-left: 2rem;
-    max-width: 450px;
+    max-width: 600px;
+    height: 400px;
     background-color: #F5EFE6;
     filter: opacity(2px);
     border-radius: 5px;
@@ -23,8 +23,8 @@
 }
 
 .content-about p {
-    font-size: 1.4rem;
-
+    font-size: 1.3rem;
+    max-width: 600px;
 }
 
 .content-about h1 {
@@ -38,8 +38,6 @@
     position: relative;
     max-width: 350px;
     max-height: 350px;
-
-
 }
 
 .image-wrapper img {
@@ -48,7 +46,6 @@
     margin-left: -5rem;
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-
 }
 
 .text-img {
@@ -72,7 +69,6 @@
     padding: 1rem;
     box-sizing: border-box;
     font-family: var(--test-font2);
-
 }
 
 .text-img p {
@@ -91,5 +87,4 @@
     opacity: 1;
     visibility: visible;
     gap: 10px;
-
 }

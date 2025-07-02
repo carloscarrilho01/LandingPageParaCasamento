@@ -67,6 +67,7 @@
     justify-content: center;
     gap: 5px;
     font-size: 1.7rem;
+    transition: 1s;
 }
 
 .navigation a:hover {
